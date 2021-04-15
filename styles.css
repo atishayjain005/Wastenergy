@@ -1,0 +1,595 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+    color: rgb(114, 74, 0);
+    text-align: center;
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(255, 219, 140, 0.575), rgb(255, 255, 255));
+    height: 230px;
+    font-size: 40px;
+    padding: 30px 0 10px 0;
+    margin: 0px;
+}
+
+.bar {
+    position: sticky;
+    background-color: rgb(27, 27, 27);
+    width: 100%;
+    max-height: max-content;
+    text-align: center;
+    font-size: 20px;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.Home {
+    padding-top: 20px;
+    padding-left: 80px;
+    padding-right: 150px;
+    padding-bottom: 20px;
+    border-top: 5px solid rgb(148, 96, 0);
+    transition-duration: 0.3s;
+    color: rgb(255, 255, 255);
+}
+
+.dropdown {
+    text-align: left;
+    display: none;
+    width: 204px;
+    padding: 20px;
+    background-color: rgb(218, 255, 176);
+    transition-duration: 1s;
+}
+
+.dropdown a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.781);
+}
+
+.Home:hover .dropdown {
+    display: block;
+    position: absolute;
+}
+
+.Home:hover {
+    padding-left: 150px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(233, 255, 152);
+}
+
+.Aboutus {
+    padding-top: 20px;
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-bottom: 20px;
+    border-top: 5px solid rgb(148, 96, 0);
+    transition-duration: 0.3s;
+    color: rgb(255, 255, 255);
+}
+
+.Aboutus:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(233, 255, 152)
+}
+
+#a1 {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.Aboutus:hover #a1 {
+    color: rgb(233, 255, 152)
+}
+
+.Contact {
+    padding-top: 20px;
+    padding-right: 80px;
+    padding-left: 150px;
+    padding-bottom: 20px;
+    border-top: 5px solid rgb(148, 96, 0);
+    transition-duration: 0.3s;
+    color: rgb(255, 255, 255);
+}
+
+.Contact:hover {
+    padding-right: 150px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(233, 255, 152)
+}
+
+#a2 {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.Contact:hover #a2 {
+    color: rgb(233, 255, 152)
+}
+
+#logo {
+    background-color: transparent;
+    height: 150px;
+    width: 150px;
+}
+
+.initial {
+    background-image: linear-gradient(to right, rgb(55, 146, 55), rgb(221, 221, 18));
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+#h5 {
+    margin-top: 0;
+    font-size: 50px;
+    padding: 200px 750px 200px 100px;
+}
+
+#plant {
+    float: right;
+    width: 550px;
+    height: 500px;
+}
+
+.container {
+    width: 100%;
+}
+
+#ntree {
+    float: right;
+    height: 500px;
+    width: 500px;
+}
+
+#blog {
+    margin-left: 340px;
+    font-size: 23px;
+    font-weight: bold;
+    background-color: rgb(233, 255, 152);
+    width: fit-content;
+    padding: 2px;
+}
+
+.content {
+    margin: 0px 15% 100px 15%;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 100px;
+    padding-top: 10px;
+    text-align: left;
+    color: rgb(63, 63, 63);
+}
+
+h6 {
+    font-size: 35px;
+    color: black;
+}
+
+#pic {
+    margin-top: 100px;
+    width: 100%;
+}
+
+#pic1 {
+    margin-top: 100px;
+    width: 100%;
+}
+
+#pic2 {
+    margin-top: 100px;
+    width: 100%;
+}
+
+.c {
+    background-color: transparent;
+    height: 750px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+#tree {
+    position: absolute;
+    height: 700px;
+    width: 700px;
+    margin-left: -23%;
+    margin-top: 25px;
+    transition-duration: 0.5s;
+}
+
+#tree:hover {
+    filter: drop-shadow(0 0px 10px rgba(0, 0, 0, 0.432));
+}
+
+.c1 {
+    position: relative;
+    float: left;
+    display: flex;
+    text-align: center;
+    background-image: linear-gradient(rgb(80, 177, 0), rgb(90, 199, 0));
+    width: 50%;
+    height: 355px;
+    justify-content: center;
+    border-top-left-radius: 300px;
+    transition-duration: 0.5s;
+}
+
+.c1:hover {
+    border-top-left-radius: 5px;
+}
+
+.c2 {
+    position: relative;
+    float: right;
+    display: flex;
+    text-align: center;
+    background-image: linear-gradient(rgb(80, 177, 0), rgb(90, 199, 0));
+    width: 50%;
+    height: 355px;
+    justify-content: center;
+    border-top-right-radius: 300px;
+    transition-duration: 0.5s;
+}
+
+.c2:hover {
+    border-top-right-radius: 5px;
+}
+
+.c3 {
+    position: relative;
+    float: left;
+    display: flex;
+    text-align: center;
+    background-image: linear-gradient(rgba(151, 74, 1, 0.959), rgba(90, 44, 0, 0.959));
+    width: 50%;
+    height: 355px;
+    justify-content: center;
+    border-top: 5px solid rgb(207, 135, 0);
+    border-bottom-left-radius: 300px;
+    transition-duration: 0.5s;
+}
+
+.c3:hover {
+    border-bottom-left-radius: 5px;
+}
+
+.c4 {
+    position: relative;
+    float: right;
+    display: flex;
+    text-align: center;
+    background-image: linear-gradient(rgba(151, 74, 1, 0.959), rgba(90, 44, 0, 0.959));
+    width: 50%;
+    height: 355px;
+    justify-content: center;
+    border-top: 5px solid rgb(207, 135, 0);
+    border-bottom-right-radius: 300px;
+    transition-duration: 0.5s;
+}
+
+.c4:hover {
+    border-bottom-right-radius: 5px;
+}
+
+.inc1 {
+    text-align: left;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 39px;
+    color: rgb(131, 78, 0);
+    margin: auto;
+    padding: 50px;
+    padding-top: 160px;
+    padding-left: 160px;
+    width: 100%;
+    height: 50%;
+    transition-duration: 0.5s;
+}
+
+.inc1:hover {
+    padding-top: 50px;
+    padding-left: 50px;
+    font-size: 32px;
+    height: 100%;
+}
+
+.inc2 {
+    font-family: 'Nanum Pen Script', cursive;
+    text-align: left;
+    font-size: 39px;
+    color: rgb(165, 216, 97);
+    margin: auto;
+    padding: 50px;
+    padding-top: 160px;
+    padding-left: 160px;
+    width: 100%;
+    height: 40%;
+    transition-duration: 0.5s;
+}
+
+.inc2:hover {
+    padding-top: 50px;
+    padding-left: 50px;
+    font-size: 32px;
+    height: 100%;
+}
+
+.inc3 {
+    font-family: 'Nanum Pen Script', cursive;
+    text-align: right;
+    font-size: 39px;
+    color: rgb(131, 78, 0);
+    margin: auto;
+    padding: 50px;
+    padding-top: 160px;
+    padding-right: 160px;
+    width: 100%;
+    height: 50%;
+    transition-duration: 0.5s;
+}
+
+.inc3:hover {
+    padding-top: 50px;
+    padding-right: 50px;
+    font-size: 32px;
+    height: 100%;
+}
+
+.inc4 {
+    font-family: 'Nanum Pen Script', cursive;
+    text-align: right;
+    font-size: 39px;
+    color: rgb(165, 216, 97);
+    margin: auto;
+    padding: 50px;
+    padding-top: 160px;
+    padding-right: 160px;
+    width: 100%;
+    height: 40%;
+    transition-duration: 0.5s;
+}
+
+.inc4:hover {
+    padding-top: 50px;
+    padding-right: 50px;
+    font-size: 32px;
+    height: 100%;
+}
+
+.p1 {
+    display: none;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.p2 {
+    display: none;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.p3 {
+    display: none;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.p4 {
+    display: none;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.inc1:hover .p1 {
+    display: block;
+    margin-right: 200px;
+    line-height: 1.2;
+}
+
+.inc2:hover .p2 {
+    display: block;
+    margin-right: 300px;
+    line-height: 1.2;
+}
+
+.inc3:hover .p3 {
+    display: block;
+    margin-left: 240px;
+    line-height: 1.2;
+}
+
+.inc4:hover .p4 {
+    display: block;
+    margin-left: 250px;
+    line-height: 1.2;
+}
+
+.aboutus {
+    margin-top: 100px;
+    text-align: center;
+    height: 900px;
+}
+
+.aboutus:hover #cloud {
+    margin-left: 190px;
+}
+
+h2 {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 25px;
+    font-size: 4rem;
+    color: rgba(0, 0, 0, 0.76);
+    border-top: 10px solid rgba(0, 84, 117, 0.76);
+}
+
+#cloud {
+    float: left;
+    width: 700px;
+    height: 700px;
+    transition-duration: 12s;
+}
+
+#cloud:hover {
+    margin-left: 190px;
+}
+
+#p1 {
+    font-family: 'Satisfy', cursive;
+    color: rgba(0, 0, 0, 0.76);
+    position: absolute;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 50%;
+    margin-right: 5%;
+    max-height: 500px;
+}
+
+.contact {
+    margin-bottom: 150px;
+}
+
+h3 {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 25px;
+    font-size: 4rem;
+    color: rgba(0, 0, 0, 0.76);
+    border-top: 10px solid rgba(0, 84, 117, 0.76);
+}
+
+h4 {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 25px;
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.76);
+}
+
+form {
+    text-align: center;
+    margin: 50px;
+    margin-left: 26%;
+    margin-right: 26%;
+    background-image: linear-gradient( rgba(9, 125, 146, 0.452), white);
+    padding: 50px;
+    padding-bottom: 30px;
+    border-radius: 55px;
+}
+
+input#name {
+    height: 60px;
+    width: 500px;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    padding-left: 20px;
+    border: solid 5px rgb(255, 255, 255);
+    border-radius: 15px;
+    outline: none;
+}
+
+input#age {
+    height: 60px;
+    width: 500px;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    padding-left: 20px;
+    border: solid 5px rgb(255, 255, 255);
+    border-radius: 15px;
+    outline: none;
+}
+
+input#email {
+    height: 60px;
+    width: 500px;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    padding-left: 20px;
+    border: solid 5px rgb(255, 255, 255);
+    border-radius: 15px;
+    outline: none;
+}
+
+button#submit {
+    background-color: rgba(9, 125, 146, 0.452);
+    height: 60px;
+    width: 200px;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    border: solid 5px rgb(255, 255, 255);
+    border-radius: 15px;
+    outline: none;
+    color: white;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(59, 59, 59);
+    height: auto;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 40px;
+    color: #fff;
+}
+
+#wastenergy {
+    color: #fff;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem -30px;
+}
+
+.socials li {
+    margin: 0 20px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.socials a i {
+    font-size: 30px;
+    transition: color .4s ease;
+}
+
+.socials a:hover i {
+    color: rgb(17, 150, 0);
+}
+
+.footerb {
+    background: #000;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footerb #pp {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footerb span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
